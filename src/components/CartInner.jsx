@@ -34,151 +34,93 @@ export const CartCount = () => {
 
 const CartInner = () => {
   return (
-    <div className="py-80">
+    <div className="py-30 ">
       <div className="container">
         <div className="row">
-          <div className="col-lg-8">
-            <div className="border border-neutral-30 rounded-12 bg-main-25 p-32 bg-main-25">
+          <div className="col-lg-8 mx-auto">
+            <div className="border border-neutral-30 rounded-12 bg-main-25 p-32">
               <h4 className="mb-0">Keranjang</h4>
               <span className="d-block border border-neutral-30 my-24 border-dashed" />
-              <div className="table-responsive overflow-x-auto">
-                <table className="table min-w-max vertical-middle mb-0">
-                  <thead>
-                    <tr>
-                      <th className="text-neutral-500 fw-semibold px-24 py-20 border-0">
-                        Assessment
-                      </th>
-                      <th className="text-neutral-500 fw-semibold px-24 py-20 border-0">
-                        Harga
-                      </th>
-                      <th className="text-neutral-500 fw-semibold px-24 py-20 border-0" />
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td
-                        className="border-bottom border-dashed border-neutral-40 text-neutral-500 bg-transparent px-24 py-20"
-                        style={{
-                          whiteSpace: "normal", // biar teks bisa turun ke bawah
-                          wordBreak: "break-word", // pecah kata panjang
-                          maxWidth: "200px", // batas lebar kolom
-                        }}
-                      >
-                        <div className="d-flex flex-column align-items-start text-start">
-                          <div className="border border-neutral-40 rounded-8 bg-white p-12 mb-12">
-                            <img
-                              src="/assets/images/logo/nav-logo.png"
-                              alt=""
-                              style={{
-                                width: "80px",
-                                height: "80px",
-                                objectFit: "contain",
-                              }}
-                            />
-                          </div>
-                          <h6 className="mb-0">
-                            Tes Assassment Psikometrik Lengkap
-                          </h6>
-                        </div>
-                      </td>
 
-                      <td className="border-bottom border-dashed border-neutral-40 text-neutral-500 bg-transparent px-24 py-20">
-                        Rp 250.000
-                      </td>
+              {/* LIST ITEM */}
+              <div className="d-flex flex-column gap-20">
+                {/* ITEM */}
+                {[
+                  {
+                    img: "/assets/images/logo/nav-logo.png",
+                    name: "Tes Assessment Psikometrik Lengkap",
+                    price: "Rp 250.000",
+                  },
+                  {
+                    img: "assets/images/thumbs/image2.png",
+                    name: "Tes Minat & Bakat Karier Profesional",
+                    price: "Rp 300.000",
+                  },
+                  {
+                    img: "assets/images/thumbs/about-image1.png",
+                    name: "Tes Kepribadian Online",
+                    price: "Rp 200.000",
+                  },
+                ].map((item, index) => (
+                  <div
+                    key={index}
+                    className="border border-neutral-30 bg-white rounded-12 p-20 d-flex align-items-center justify-content-between flex-wrap flex-md-nowrap gap-16 shadow-sm hover-shadow-lg transition-3"
+                  >
+                    {/* KIRI: GAMBAR + TEKS */}
+                    <div className="d-flex align-items-center gap-16 flex-grow-1">
+                      <div className="border border-neutral-40 rounded-8 bg-white p-8">
+                        <img
+                          src={item.img}
+                          alt={item.name}
+                          style={{
+                            width: "80px",
+                            height: "80px",
+                            objectFit: "contain",
+                            borderRadius: "8px",
+                          }}
+                        />
+                      </div>
+                      <div>
+                        <h6 className="mb-4 fw-semibold text-neutral-700">
+                          {item.name}
+                        </h6>
+                        <span className="text-main-600 fw-semibold">
+                          {item.price}
+                        </span>
+                      </div>
+                    </div>
 
-                      <td className="border-bottom border-dashed border-neutral-40 text-neutral-500 bg-transparent px-24 py-20">
-                        <button className="delete-btn text-lg hover-text-main-600 transition-2">
-                          <i className="ph ph-trash" />
-                        </button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td
-                        className="border-bottom border-dashed border-neutral-40 text-neutral-500 bg-transparent px-24 py-20"
-                        style={{
-                          whiteSpace: "normal", // biar teks bisa turun ke bawah
-                          wordBreak: "break-word", // pecah kata panjang
-                          maxWidth: "200px", // batas lebar kolom
-                        }}
-                      >
-                        <div className="d-flex flex-column align-items-start text-start">
-                          <div className="border border-neutral-40 rounded-8 bg-white p-12 mb-12">
-                            <img
-                              src="assets/images/thumbs/image2.png"
-                              alt=""
-                              style={{
-                                width: "80px",
-                                height: "80px",
-                                objectFit: "contain",
-                              }}
-                            />
-                          </div>
-                          <h6 className="mb-0">
-                            Tes Assassment Psikometrik Lengkap
-                          </h6>
-                        </div>
-                      </td>
+                    {/* KANAN: TOMBOL HAPUS */}
+                    <button
+                      className="delete-btn text-lg hover-text-main-600 transition-2"
+                      style={{
+                        border: "none",
+                        background: "transparent",
+                      }}
+                    >
+                      <i className="ph ph-trash text-xl"></i>
+                    </button>
+                  </div>
+                ))}
+              </div>
 
-                      <td className="border-bottom border-dashed border-neutral-40 text-neutral-500 bg-transparent px-24 py-20">
-                        Rp 250.000
-                      </td>
-
-                      <td className="border-bottom border-dashed border-neutral-40 text-neutral-500 bg-transparent px-24 py-20">
-                        <button className="delete-btn text-lg hover-text-main-600 transition-2">
-                          <i className="ph ph-trash" />
-                        </button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td
-                        className="border-bottom border-dashed border-neutral-40 text-neutral-500 bg-transparent px-24 py-20"
-                        style={{
-                          whiteSpace: "normal", // biar teks bisa turun ke bawah
-                          wordBreak: "break-word", // pecah kata panjang
-                          maxWidth: "200px", // batas lebar kolom
-                        }}
-                      >
-                        <div className="d-flex flex-column align-items-start text-start">
-                          <div className="border border-neutral-40 rounded-8 bg-white p-12 mb-12">
-                            <img
-                              src="assets/images/thumbs/about-image1.png"
-                              alt=""
-                              style={{
-                                width: "80px",
-                                height: "80px",
-                                objectFit: "contain",
-                              }}
-                            />
-                          </div>
-                          <h6 className="mb-0">
-                            Tes Assassment Psikometrik Lengkap
-                          </h6>
-                        </div>
-                      </td>
-
-                      <td className="border-bottom border-dashed border-neutral-40 text-neutral-500 bg-transparent px-24 py-20">
-                        Rp 250.000
-                      </td>
-
-                      <td className="border-bottom border-dashed border-neutral-40 text-neutral-500 bg-transparent px-24 py-20">
-                        <button className="delete-btn text-lg hover-text-main-600 transition-2">
-                          <i className="ph ph-trash" />
-                        </button>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+              {/* FOOTER */}
+              <div className="d-flex justify-content-between align-items-center mt-32 flex-wrap gap-12">
                 <Link
                   to="/courses"
-                  className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold mt-24"
-                  tabIndex={0}
+                  className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                 >
                   <i className="ph ph-arrow-left" />
-                  Lanjut Assassment
+                  Lanjut Assessment
                 </Link>
+
+                {/* <button className="btn btn-main rounded-8 fw-semibold px-32 py-12">
+                  Checkout
+                </button> */}
               </div>
             </div>
           </div>
+
           <div className="col-lg-4">
             <div className="border border-neutral-30 rounded-12 bg-main-25 p-24 bg-main-25">
               <span className="text-neutral-700 text-lg mb-12">

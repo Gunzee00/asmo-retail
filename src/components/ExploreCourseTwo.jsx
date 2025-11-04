@@ -141,7 +141,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/image2.png"
                         alt="Course Image"
@@ -158,7 +158,7 @@ const ExploreCourseTwo = () => {
                     </span> */}
                     <div className="">
                       <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
+                        {/* <Link
                           to="/course"
                           className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
                         >
@@ -166,7 +166,7 @@ const ExploreCourseTwo = () => {
                             <i className="ph-bold ph-squares-four" />
                           </span>
                           Marketing
-                        </Link>
+                        </Link> */}
                         <Link
                           to="/course"
                           className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
@@ -177,11 +177,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Introduction to Digital Marketing
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -210,7 +213,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -233,7 +236,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/image2.png"
                         alt="Course Image"
@@ -269,11 +272,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Mastering Python : From Zero to Hero
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -302,7 +308,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -325,7 +331,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/image2.png"
                         alt="Course Image"
@@ -352,11 +358,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Beginner's Guide to Adobe Photoshop
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -385,7 +394,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -408,7 +417,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/image2.png"
                         alt="Course Image"
@@ -435,11 +444,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           The Art of Public Speaking online Course
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -468,7 +480,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -491,7 +503,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/image2.png"
                         alt="Course Image"
@@ -518,11 +530,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Introduction to Machine Learning AI
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -551,7 +566,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -574,7 +589,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/image2.png"
                         alt="Course Image"
@@ -610,11 +625,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Yoga for Wellness: A Comprehensive Guide
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -643,7 +661,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -685,7 +703,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img1.png"
                         alt="Course Image"
@@ -721,11 +739,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Introduction to Digital Marketing
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -754,7 +775,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -777,7 +798,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img2.png"
                         alt="Course Image"
@@ -813,11 +834,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Mastering Python : From Zero to Hero
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -846,7 +870,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -869,7 +893,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img3.png"
                         alt="Course Image"
@@ -905,11 +929,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Beginner's Guide to Adobe Photoshop
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -938,7 +965,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -961,7 +988,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img3.png"
                         alt="Course Image"
@@ -997,11 +1024,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           The Art of Public Speaking online Course
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -1030,7 +1060,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -1053,7 +1083,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img5.png"
                         alt="Course Image"
@@ -1089,11 +1119,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Introduction to Machine Learning AI
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -1122,7 +1155,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -1145,7 +1178,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img6.png"
                         alt="Course Image"
@@ -1181,11 +1214,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Yoga for Wellness: A Comprehensive Guide
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -1214,7 +1250,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -1256,7 +1292,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img1.png"
                         alt="Course Image"
@@ -1292,11 +1328,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Introduction to Digital Marketing
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -1325,7 +1364,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -1348,7 +1387,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img2.png"
                         alt="Course Image"
@@ -1384,11 +1423,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Mastering Python : From Zero to Hero
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -1417,7 +1459,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -1440,7 +1482,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img3.png"
                         alt="Course Image"
@@ -1476,11 +1518,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Beginner's Guide to Adobe Photoshop
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -1509,7 +1554,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -1532,7 +1577,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img3.png"
                         alt="Course Image"
@@ -1568,11 +1613,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           The Art of Public Speaking online Course
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -1601,7 +1649,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -1624,7 +1672,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img5.png"
                         alt="Course Image"
@@ -1660,11 +1708,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Introduction to Machine Learning AI
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -1693,7 +1744,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -1716,7 +1767,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img6.png"
                         alt="Course Image"
@@ -1752,11 +1803,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Yoga for Wellness: A Comprehensive Guide
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -1785,7 +1839,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -1827,7 +1881,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img1.png"
                         alt="Course Image"
@@ -1863,11 +1917,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Introduction to Digital Marketing
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -1896,7 +1953,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -1919,7 +1976,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img2.png"
                         alt="Course Image"
@@ -1955,11 +2012,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Mastering Python : From Zero to Hero
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -1988,7 +2048,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -2011,7 +2071,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img3.png"
                         alt="Course Image"
@@ -2047,11 +2107,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Beginner's Guide to Adobe Photoshop
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -2080,7 +2143,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -2103,7 +2166,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img3.png"
                         alt="Course Image"
@@ -2139,11 +2202,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           The Art of Public Speaking online Course
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -2172,7 +2238,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -2195,7 +2261,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img5.png"
                         alt="Course Image"
@@ -2231,11 +2297,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Introduction to Machine Learning AI
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -2264,7 +2333,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -2287,7 +2356,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img6.png"
                         alt="Course Image"
@@ -2323,11 +2392,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Yoga for Wellness: A Comprehensive Guide
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -2356,7 +2428,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -2398,7 +2470,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img1.png"
                         alt="Course Image"
@@ -2434,11 +2506,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Introduction to Digital Marketing
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -2467,7 +2542,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -2490,7 +2565,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img2.png"
                         alt="Course Image"
@@ -2526,11 +2601,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Mastering Python : From Zero to Hero
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -2559,7 +2637,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -2582,7 +2660,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img3.png"
                         alt="Course Image"
@@ -2618,11 +2696,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Beginner's Guide to Adobe Photoshop
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -2651,7 +2732,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -2674,7 +2755,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img3.png"
                         alt="Course Image"
@@ -2710,11 +2791,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           The Art of Public Speaking online Course
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -2743,7 +2827,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -2766,7 +2850,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img5.png"
                         alt="Course Image"
@@ -2802,11 +2886,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Introduction to Machine Learning AI
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -2835,7 +2922,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -2858,7 +2945,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img6.png"
                         alt="Course Image"
@@ -2894,11 +2981,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Yoga for Wellness: A Comprehensive Guide
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -2927,7 +3017,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -2969,7 +3059,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img1.png"
                         alt="Course Image"
@@ -3005,11 +3095,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Introduction to Digital Marketing
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -3038,7 +3131,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -3061,7 +3154,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img2.png"
                         alt="Course Image"
@@ -3097,11 +3190,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Mastering Python : From Zero to Hero
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -3130,7 +3226,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -3153,7 +3249,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img3.png"
                         alt="Course Image"
@@ -3189,11 +3285,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Beginner's Guide to Adobe Photoshop
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -3222,7 +3321,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -3245,7 +3344,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img3.png"
                         alt="Course Image"
@@ -3281,11 +3380,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           The Art of Public Speaking online Course
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -3314,7 +3416,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -3337,7 +3439,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img5.png"
                         alt="Course Image"
@@ -3373,11 +3475,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Introduction to Machine Learning AI
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -3406,7 +3511,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
@@ -3429,7 +3534,7 @@ const ExploreCourseTwo = () => {
               >
                 <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/course-img6.png"
                         alt="Course Image"
@@ -3465,11 +3570,14 @@ const ExploreCourseTwo = () => {
                           Beginner
                         </Link>
                       </div>
-                      <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                      <h5 className="mb-28">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Yoga for Wellness: A Comprehensive Guide
                         </Link>
-                      </h4>
+                      </h5>
                       <div className="flex-align gap-28 flex-wrap mb-16">
                         <div className="flex-align gap-8">
                           <span className="text-neutral-700 text-2xl d-flex">
@@ -3498,7 +3606,7 @@ const ExploreCourseTwo = () => {
                       </div>
                     </div>
                     <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h4 className="mb-0 text-main-two-600">$148</h4>
+                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />

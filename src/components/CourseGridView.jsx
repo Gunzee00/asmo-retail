@@ -2,19 +2,9 @@ import { Link } from "react-router-dom";
 
 const CourseGridView = () => {
   return (
-    <section className="course-grid-view py-120">
+    <section className="course-grid-view py-26">
       <div className="container">
-        <div className="flex-between gap-16 flex-wrap mb-40">
-          <span className="text-neutral-500">Showing 9 of 600 Results </span>
-          <div className="flex-align gap-8">
-            <span className="text-neutral-500 flex-shrink-0">Sort By :</span>
-            <select className="form-select ps-20 pe-28 py-8 fw-semibold rounded-pill bg-main-25 border border-neutral-30 text-neutral-700">
-              <option value={1}>Newest</option>
-              <option value={1}>Trending</option>
-              <option value={1}>Popular</option>
-            </select>
-          </div>
-        </div>
+        
         <div className="row gy-4">
           <div className="col-lg-4 col-sm-6">
             <div className="course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30">
@@ -41,11 +31,11 @@ const CourseGridView = () => {
               </div>
               <div className="course-item__content">
                 <div className="">
-                  <h4 className="mb-28">
+                  <h5 className="mb-28">
                     <Link to="/assessment-details" className="link text-line-2">
                       Introduction to Digital Marketing
                     </Link>
-                  </h4>
+                  </h5>
                   <div className="flex-between gap-8 flex-wrap mb-16">
                     <div className="flex-align gap-8">
                       <span className="text-neutral-700 text-2xl d-flex">
@@ -89,7 +79,7 @@ const CourseGridView = () => {
                   </div>
                 </div>
                 <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                  <h4 className="mb-0 text-main-two-600">Rp 200.000</h4>
+                  <h5 className="mb-0 text-main-two-600">Rp 200.000</h5>
                   <Link
                     to="/apply-admission"
                     className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
@@ -127,11 +117,11 @@ const CourseGridView = () => {
               </div>
               <div className="course-item__content">
                 <div className="">
-                  <h4 className="mb-28">
+                  <h5 className="mb-28">
                     <Link to="/assessment-details" className="link text-line-2">
                       Introduction to Python Programming
                     </Link>
-                  </h4>
+                  </h5>
                   <div className="flex-between gap-8 flex-wrap mb-16">
                     <div className="flex-align gap-8">
                       <span className="text-neutral-700 text-2xl d-flex">
@@ -175,7 +165,7 @@ const CourseGridView = () => {
                   </div>
                 </div>
                 <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                  <h4 className="mb-0 text-main-two-600">Rp 220.000</h4>
+                  <h5 className="mb-0 text-main-two-600">Rp 220.000</h5>
                   <Link
                     to="/apply-admission"
                     className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
@@ -213,11 +203,11 @@ const CourseGridView = () => {
               </div>
               <div className="course-item__content">
                 <div className="">
-                  <h4 className="mb-28">
+                  <h5 className="mb-28">
                     <Link to="/assessment-details" className="link text-line-2">
                       Introduction to Photography Masterclass
                     </Link>
-                  </h4>
+                  </h5>
                   <div className="flex-between gap-8 flex-wrap mb-16">
                     <div className="flex-align gap-8">
                       <span className="text-neutral-700 text-2xl d-flex">
@@ -261,7 +251,7 @@ const CourseGridView = () => {
                   </div>
                 </div>
                 <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                  <h4 className="mb-0 text-main-two-600">Rp 150.000</h4>
+                  <h5 className="mb-0 text-main-two-600">Rp 150.000</h5>
                   <Link
                     to="/apply-admission"
                     className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
@@ -299,11 +289,11 @@ const CourseGridView = () => {
               </div>
               <div className="course-item__content">
                 <div className="">
-                  <h4 className="mb-28">
+                  <h5 className="mb-28">
                     <Link to="/assessment-details" className="link text-line-2">
                       Spanish Language Mastery: Beginner to Fluent
                     </Link>
-                  </h4>
+                  </h5>
                   <div className="flex-between gap-8 flex-wrap mb-16">
                     <div className="flex-align gap-8">
                       <span className="text-neutral-700 text-2xl d-flex">
@@ -347,7 +337,7 @@ const CourseGridView = () => {
                   </div>
                 </div>
                 <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                  <h4 className="mb-0 text-main-two-600">Rp 280.000</h4>
+                  <h5 className="mb-0 text-main-two-600">Rp 280.000</h5>
                   <Link
                     to="/apply-admission"
                     className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
@@ -385,11 +375,11 @@ const CourseGridView = () => {
               </div>
               <div className="course-item__content">
                 <div className="">
-                  <h4 className="mb-28">
+                  <h5 className="mb-28">
                     <Link to="/assessment-details" className="link text-line-2">
                       Financial Planning for Millennials
                     </Link>
-                  </h4>
+                  </h5>
                   <div className="flex-between gap-8 flex-wrap mb-16">
                     <div className="flex-align gap-8">
                       <span className="text-neutral-700 text-2xl d-flex">
@@ -433,7 +423,7 @@ const CourseGridView = () => {
                   </div>
                 </div>
                 <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                  <h4 className="mb-0 text-main-two-600">Rp 200.000</h4>
+                  <h5 className="mb-0 text-main-two-600">Rp 200.000</h5>
                   <Link
                     to="/apply-admission"
                     className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
@@ -471,11 +461,11 @@ const CourseGridView = () => {
               </div>
               <div className="course-item__content">
                 <div className="">
-                  <h4 className="mb-28">
+                  <h5 className="mb-28">
                     <Link to="/assessment-details" className="link text-line-2">
                       Nutrition Essentials for Healthy Living
                     </Link>
-                  </h4>
+                  </h5>
                   <div className="flex-between gap-8 flex-wrap mb-16">
                     <div className="flex-align gap-8">
                       <span className="text-neutral-700 text-2xl d-flex">
@@ -519,7 +509,7 @@ const CourseGridView = () => {
                   </div>
                 </div>
                 <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                  <h4 className="mb-0 text-main-two-600">Rp 150.000</h4>
+                  <h5 className="mb-0 text-main-two-600">Rp 150.000</h5>
                   <Link
                     to="/apply-admission"
                     className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
@@ -557,11 +547,11 @@ const CourseGridView = () => {
               </div>
               <div className="course-item__content">
                 <div className="">
-                  <h4 className="mb-28">
+                  <h5 className="mb-28">
                     <Link to="/assessment-details" className="link text-line-2">
                       Nutrition Essentials for Healthy Living
                     </Link>
-                  </h4>
+                  </h5>
                   <div className="flex-between gap-8 flex-wrap mb-16">
                     <div className="flex-align gap-8">
                       <span className="text-neutral-700 text-2xl d-flex">
@@ -605,7 +595,7 @@ const CourseGridView = () => {
                   </div>
                 </div>
                 <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                  <h4 className="mb-0 text-main-two-600">Rp 190.000</h4>
+                  <h5 className="mb-0 text-main-two-600">Rp 190.000</h5>
                   <Link
                     to="/apply-admission"
                     className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
@@ -643,11 +633,11 @@ const CourseGridView = () => {
               </div>
               <div className="course-item__content">
                 <div className="">
-                  <h4 className="mb-28">
+                  <h5 className="mb-28">
                     <Link to="/assessment-details" className="link text-line-2">
                       Nutrition Essentials for Healthy Living
                     </Link>
-                  </h4>
+                  </h5>
                   <div className="flex-between gap-8 flex-wrap mb-16">
                     <div className="flex-align gap-8">
                       <span className="text-neutral-700 text-2xl d-flex">
@@ -691,7 +681,7 @@ const CourseGridView = () => {
                   </div>
                 </div>
                 <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                  <h4 className="mb-0 text-main-two-600">Rp 190.000</h4>
+                  <h5 className="mb-0 text-main-two-600">Rp 190.000</h5>
                   <Link
                     to="/apply-admission"
                     className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
@@ -729,11 +719,11 @@ const CourseGridView = () => {
               </div>
               <div className="course-item__content">
                 <div className="">
-                  <h4 className="mb-28">
+                  <h5 className="mb-28">
                     <Link to="/assessment-details" className="link text-line-2">
                       Nutrition Essentials for Healthy Living
                     </Link>
-                  </h4>
+                  </h5>
                   <div className="flex-between gap-8 flex-wrap mb-16">
                     <div className="flex-align gap-8">
                       <span className="text-neutral-700 text-2xl d-flex">
@@ -777,7 +767,7 @@ const CourseGridView = () => {
                   </div>
                 </div>
                 <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                  <h4 className="mb-0 text-main-two-600">Rp 100.000</h4>
+                  <h5 className="mb-0 text-main-two-600">Rp 100.000</h5>
                   <Link
                     to="/apply-admission"
                     className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"

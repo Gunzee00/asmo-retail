@@ -1,6 +1,6 @@
 const InfoSectionOne = () => {
   return (
-    <section className='info py-40 bg-main-600'>
+    <section className='info py-20 bg-main-600'>
       <div className='container'>
         <div className='row gy-4'>
           <div

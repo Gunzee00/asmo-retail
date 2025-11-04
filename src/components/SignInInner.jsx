@@ -1,74 +1,89 @@
 "use client";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { authService } from "../services/authService"; // pastikan path sesuai struktur kamu
 
 const SignInInner = () => {
   const [passwordVisible, setPasswordVisible] = useState(false);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const navigate = useNavigate();
+
   const togglePasswordVisibility = () => {
     setPasswordVisible((prev) => !prev);
   };
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    setError("");
+    setLoading(true);
+
+    try {
+      await authService.login(email, password);
+      navigate("/"); // redirect ke dashboard
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="w-100 h-100 position-fixed top-0 start-0 overflow-hidden d-flex">
-      {/* LEFT SIDE (2/3) - Tidak berubah */}
+      {/* LEFT SIDE (2/3) */}
       <div
         className="d-none d-md-block w-100"
         style={{ flex: "2", position: "relative" }}
       >
         <img
-          src="/assets/images/thumbs/sign-in.png" // placeholder
+          src="/assets/images/thumbs/sign-in.png"
           alt="bg"
           className="w-100 h-100"
           style={{ objectFit: "cover" }}
         />
         <div className="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-25 d-flex align-items-center justify-content-center">
-          <div className="text-center text-white px-4">
-            {/* kosongkan dulu — nanti bisa isi quote/tagline dsini */}
-          </div>
+          <div className="text-center text-white px-4"></div>
         </div>
       </div>
 
-      {/* RIGHT SIDE (1/3) - PENYESUAIAN DI SINI */}
+      {/* RIGHT SIDE (1/3) */}
       <div
         className="w-100 d-flex align-items-center justify-content-center"
         style={{ flex: "1" }}
       >
-        {/* Kontainer form dibuat lebih ramping */}
         <div className="w-100" style={{ maxWidth: "400px" }}>
-          {/* 1. Mengurangi margin-bottom dari logo container */}
+          {/* Logo */}
           <div className="text-center mb-32">
-            {" "}
-            {/* Diubah dari mb-40 */}
             <img
               src="./assets/images/logo/nav-logo.png"
               alt="Logo"
-              /* 2. Mengurangi margin-bottom logo */
-              className="mb-20 mx-auto d-block" /* Diubah dari mb-24 */
-              style={{ maxWidth: "150px" }} /* Diubah dari 160px */
+              className="mb-20 mx-auto d-block"
+              style={{ maxWidth: "150px" }}
             />
           </div>
 
-          {/* 3. Mengurangi padding di dalam box form */}
+          {/* FORM BOX */}
           <div className="bg-main-25 border border-neutral-30 rounded-8 p-24">
-            {" "}
-            {/* Diubah dari p-32 */}
-            <form>
+            <form onSubmit={handleLogin}>
               {/* EMAIL */}
-              {/* 4. Mengurangi margin-bottom antar field */}
               <div className="mb-20">
-                {" "}
-                {/* Diubah dari mb-24 */}
                 <label
                   htmlFor="email"
-                  /* 5. Mengurangi margin-bottom label & ukuran font */
-                  className="fw-medium text-neutral-500 mb-8 d-block" /* Diubah dari mb-16 & text-lg */
+                  className="fw-medium text-neutral-500 mb-8 d-block"
                 >
                   Email
                 </label>
                 <input
-                  id="email" /* Diperbaiki: id harus unik */
-                  name="email" /* Diperbaiki */
-                  type="email" /* Diperbaiki: type="text" menjadi "email" */
+                  id="email"
+                  name="email"
+                  type="email"
                   placeholder="Masukkan email.."
-                  className={`form-control w-100 py-9 rounded`}
+                  className="form-control w-100 py-9 rounded"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
                 />
               </div>
 
@@ -76,19 +91,20 @@ const SignInInner = () => {
               <div className="mb-16">
                 <label
                   htmlFor="password"
-                  /* 6. Mengurangi margin-bottom label & ukuran font */
-                  className="fw-medium text-neutral-500 mb-8 d-block" /* Diubah dari mb-16 & text-lg */
+                  className="fw-medium text-neutral-500 mb-8 d-block"
                 >
                   Kata sandi
                 </label>
                 <div className="position-relative">
                   <input
                     placeholder="Masukkan kata sandi.."
-                    id="password" /* Diperbaiki: id harus unik */
-                    name="password" /* Diperbaiki */
-                    /* 7. Menambahkan logic type untuk toggle password */
+                    id="password"
+                    name="password"
                     type={passwordVisible ? "text" : "password"}
-                    className={`form-control w-100 py-9 rounded`}
+                    className="form-control w-100 py-9 rounded"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    required
                   />
                   <span
                     onClick={togglePasswordVisibility}
@@ -100,11 +116,13 @@ const SignInInner = () => {
                 </div>
               </div>
 
-              {/* FORGOT PASSWORD */}
-              {/* 8. Menambah sedikit jarak di atas "Lupa Password" */}
+              {/* ERROR MESSAGE */}
+              {error && (
+                <p className="text-danger text-center mb-12">{error}</p>
+              )}
+
+              {/* LUPA PASSWORD */}
               <div className="mt-8 mb-16 text-end">
-                {" "}
-                {/* Diubah dari mb-16 saja */}
                 <a
                   href="#"
                   className="text-warning-600 hover-text-decoration-underline"
@@ -114,10 +132,7 @@ const SignInInner = () => {
               </div>
 
               {/* SIGN UP LINK */}
-              {/* 9. Mengatur ulang margin sebelum tombol submit */}
               <div className="mb-24">
-                {" "}
-                {/* Diubah dari mb-16 */}
                 <p className="text-neutral-500">
                   Tidak punya akun?
                   <a
@@ -131,10 +146,10 @@ const SignInInner = () => {
 
               <button
                 type="submit"
-                /* 10. Mengurangi margin-top tombol */
-                className="btn btn-main rounded-pill w-100 d-flex justify-content-center gap-8 mt-24" /* Diubah dari mt-30 */
+                className="btn btn-main rounded-pill w-100 d-flex justify-content-center gap-8 mt-24"
+                disabled={loading}
               >
-                Masuk
+                {loading ? "Memproses..." : "Masuk"}
                 <i className="ph-bold d-flex text-lg" />
               </button>
             </form>
@@ -142,8 +157,6 @@ const SignInInner = () => {
 
           {/* FOOTER */}
           <div className="text-center mt-16">
-            {" "}
-            {/* Diubah dari mt-20 */}
             <p className="text-neutral-500 text-sm">Powered by</p>
             <div className="d-flex justify-content-center align-items-center gap-4 mt-2">
               <img
@@ -152,7 +165,6 @@ const SignInInner = () => {
                 style={{ maxWidth: "120px", objectFit: "contain" }}
                 alt="Anagata"
               />
-              {/* <img src="/assets/images/logo/lptui.png"  /> */}
             </div>
           </div>
         </div>

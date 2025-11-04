@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "namaLengkap": "Gunawan Sances",
+    "email": "gunawan@mail.com",
+    "password": "123456"
+  },
+  {
+    "id": 2,
+    "namaLengkap": "Budi Santoso",
+    "email": "budi@mail.com",
+    "password": "654321"
+  }
+]

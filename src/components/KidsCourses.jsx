@@ -121,7 +121,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img1.png"
                         alt="Course Image"
@@ -158,7 +158,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Creative Arts Workshop
                         </Link>
                       </h4>
@@ -216,7 +219,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img2.png"
                         alt="Course Image"
@@ -253,7 +256,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Math Fun Adventures
                         </Link>
                       </h4>
@@ -311,7 +317,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img3.png"
                         alt="Course Image"
@@ -348,7 +354,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Melody and Rhythm
                         </Link>
                       </h4>
@@ -406,7 +415,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img4.png"
                         alt="Course Image"
@@ -443,7 +452,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Storytime and Imagination
                         </Link>
                       </h4>
@@ -501,7 +513,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img5.png"
                         alt="Course Image"
@@ -538,7 +550,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Coding for Kids
                         </Link>
                       </h4>
@@ -596,7 +611,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img6.png"
                         alt="Course Image"
@@ -633,7 +648,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Little Science Explorers
                         </Link>
                       </h4>
@@ -711,7 +729,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img1.png"
                         alt="Course Image"
@@ -748,7 +766,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Creative Arts Workshop
                         </Link>
                       </h4>
@@ -806,7 +827,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img2.png"
                         alt="Course Image"
@@ -843,7 +864,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Math Fun Adventures
                         </Link>
                       </h4>
@@ -901,7 +925,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img3.png"
                         alt="Course Image"
@@ -938,7 +962,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Melody and Rhythm
                         </Link>
                       </h4>
@@ -996,7 +1023,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img4.png"
                         alt="Course Image"
@@ -1033,7 +1060,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Storytime and Imagination
                         </Link>
                       </h4>
@@ -1091,7 +1121,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img5.png"
                         alt="Course Image"
@@ -1128,7 +1158,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Coding for Kids
                         </Link>
                       </h4>
@@ -1186,7 +1219,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img6.png"
                         alt="Course Image"
@@ -1223,7 +1256,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Little Science Explorers
                         </Link>
                       </h4>
@@ -1301,7 +1337,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img1.png"
                         alt="Course Image"
@@ -1338,7 +1374,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Creative Arts Workshop
                         </Link>
                       </h4>
@@ -1396,7 +1435,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img2.png"
                         alt="Course Image"
@@ -1433,7 +1472,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Math Fun Adventures
                         </Link>
                       </h4>
@@ -1491,7 +1533,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img3.png"
                         alt="Course Image"
@@ -1528,7 +1570,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Melody and Rhythm
                         </Link>
                       </h4>
@@ -1586,7 +1631,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img4.png"
                         alt="Course Image"
@@ -1623,7 +1668,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Storytime and Imagination
                         </Link>
                       </h4>
@@ -1681,7 +1729,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img5.png"
                         alt="Course Image"
@@ -1718,7 +1766,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Coding for Kids
                         </Link>
                       </h4>
@@ -1776,7 +1827,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img6.png"
                         alt="Course Image"
@@ -1813,7 +1864,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Little Science Explorers
                         </Link>
                       </h4>
@@ -1891,7 +1945,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img1.png"
                         alt="Course Image"
@@ -1928,7 +1982,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Creative Arts Workshop
                         </Link>
                       </h4>
@@ -1986,7 +2043,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img2.png"
                         alt="Course Image"
@@ -2023,7 +2080,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Math Fun Adventures
                         </Link>
                       </h4>
@@ -2081,7 +2141,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img3.png"
                         alt="Course Image"
@@ -2118,7 +2178,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Melody and Rhythm
                         </Link>
                       </h4>
@@ -2176,7 +2239,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img4.png"
                         alt="Course Image"
@@ -2213,7 +2276,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Storytime and Imagination
                         </Link>
                       </h4>
@@ -2271,7 +2337,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img5.png"
                         alt="Course Image"
@@ -2308,7 +2374,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Coding for Kids
                         </Link>
                       </h4>
@@ -2366,7 +2435,7 @@ const KidsCourses = () => {
                     </span>
                   </div>
                   <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/course-details" className="w-100 h-100">
+                    <Link to="/assessment-details" className="w-100 h-100">
                       <img
                         src="assets/images/thumbs/kids-courses-img6.png"
                         alt="Course Image"
@@ -2403,7 +2472,10 @@ const KidsCourses = () => {
                         </div>
                       </div>
                       <h4 className="mb-28">
-                        <Link to="/course-details" className="link text-line-2">
+                        <Link
+                          to="/assessment-details"
+                          className="link text-line-2"
+                        >
                           Little Science Explorers
                         </Link>
                       </h4>

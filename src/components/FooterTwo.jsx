@@ -188,7 +188,7 @@ const FooterTwo = () => {
               <div className="footer-item__logo mb-0" data-aos="zoom-in-right">
                 <Link to="/">
                   {" "}
-                  <img src="assets/images/logo/logo-white.png" alt="" />
+                  <img src="assets/images/logo/anagata.png" alt="" />
                 </Link>
               </div>
               <p
@@ -197,7 +197,7 @@ const FooterTwo = () => {
               >
                 {" "}
                 Copyright © 2025 <span className="fw-semibold">
-                  EduAll{" "}
+                  Anagata{" "}
                 </span>{" "}
                 All Rights Reserved.
               </p>
