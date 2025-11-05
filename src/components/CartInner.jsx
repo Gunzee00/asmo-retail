@@ -1,6 +1,6 @@
 "use client";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState } from "react"; // Pastikan useState di-import
 
 export const CartCount = () => {
   let [count, setCount] = useState(1);
@@ -33,41 +33,105 @@ export const CartCount = () => {
 };
 
 const CartInner = () => {
+  // 1. Definisikan data awal di luar return
+  // Tambahkan 'id' unik and 'checked'
+  const initialCartItems = [
+    {
+      id: 1,
+      img: "/assets/images/logo/nav-logo.png",
+      name: "Tes Assessment Psikometrik Lengkap",
+      price: "Rp 250.000",
+      checked: true,
+    },
+    {
+      id: 2,
+      img: "/assets/images/logo/nav-logo.png",
+      name: "Tes Assessment Psikometrik Lengkap",
+      price: "Rp 250.000",
+      checked: true,
+    },
+    {
+      id: 3,
+      img: "/assets/images/logo/nav-logo.png",
+      name: "Tes Assessment Psikometrik Lengkap",
+      price: "Rp 250.000",
+      checked: true,
+    },
+    {
+      id: 4,
+      img: "/assets/images/logo/nav-logo.png",
+      name: "Tes Assessment Psikometrik Lengkap",
+      price: "Rp 250.000",
+      checked: true,
+    },
+    {
+      id: 5,
+      img: "/assets/images/logo/nav-logo.png",
+      name: "Tes Assessment Psikometrik Lengkap",
+      price: "Rp 250.000",
+      checked: true,
+    },
+    {
+      id: 6,
+      img: "assets/images/thumbs/image2.png",
+      name: "Tes Minat & Bakat Karier Profesional",
+      price: "Rp 300.000",
+      checked: true,
+    },
+    {
+      id: 7,
+      img: "assets/images/thumbs/about-image1.png",
+      name: "Tes Kepribadian Online",
+      price: "Rp 200.000",
+      checked: true,
+    },
+  ];
+
+  // 2. Buat state untuk item keranjang
+  const [cartItems, setCartItems] = useState(initialCartItems);
+
+  // 3. Buat fungsi untuk menangani perubahan checkbox
+  const handleCheckboxChange = (id) => {
+    // Cari item yang diklik, lalu ubah status 'checked'-nya
+    setCartItems((prevItems) =>
+      prevItems.map((item) =>
+        item.id === id ? { ...item, checked: !item.checked } : item
+      )
+    );
+  };
+
   return (
     <div className="py-30 ">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <div className="border border-neutral-30 rounded-12 bg-main-25 p-32">
+            <div className="border border-neutral-30 rounded-12 bg-white p-32">
               <h4 className="mb-0">Keranjang</h4>
               <span className="d-block border border-neutral-30 my-24 border-dashed" />
 
               {/* LIST ITEM */}
               <div className="d-flex flex-column gap-20">
-                {/* ITEM */}
-                {[
-                  {
-                    img: "/assets/images/logo/nav-logo.png",
-                    name: "Tes Assessment Psikometrik Lengkap",
-                    price: "Rp 250.000",
-                  },
-                  {
-                    img: "assets/images/thumbs/image2.png",
-                    name: "Tes Minat & Bakat Karier Profesional",
-                    price: "Rp 300.000",
-                  },
-                  {
-                    img: "assets/images/thumbs/about-image1.png",
-                    name: "Tes Kepribadian Online",
-                    price: "Rp 200.000",
-                  },
-                ].map((item, index) => (
+                {/* 4. Gunakan state 'cartItems' untuk me-render list */}
+                {cartItems.map((item) => (
                   <div
-                    key={index}
+                    key={item.id} // Gunakan item.id sebagai key
                     className="border border-neutral-30 bg-white rounded-12 p-20 d-flex align-items-center justify-content-between flex-wrap flex-md-nowrap gap-16 shadow-sm hover-shadow-lg transition-3"
                   >
-                    {/* KIRI: GAMBAR + TEKS */}
+                    {/* KIRI: CHECKBOX + GAMBAR + TEKS */}
                     <div className="d-flex align-items-center gap-16 flex-grow-1">
+                      {/* === 5. CHECKBOX DITAMBAHKAN DI SINI === */}
+                      <input
+                        type="checkbox"
+                        className="form-check-input" // Kelas dari Bootstrap
+                        style={{
+                          minWidth: "20px",
+                          height: "20px",
+                          cursor: "pointer",
+                        }}
+                        checked={item.checked} // Hubungkan ke state
+                        onChange={() => handleCheckboxChange(item.id)} // Hubungkan ke handler
+                      />
+
                       <div className="border border-neutral-40 rounded-8 bg-white p-8">
                         <img
                           src={item.img}
@@ -113,16 +177,16 @@ const CartInner = () => {
                   <i className="ph ph-arrow-left" />
                   Lanjut Assessment
                 </Link>
-
-                {/* <button className="btn btn-main rounded-8 fw-semibold px-32 py-12">
-                  Checkout
-                </button> */}
               </div>
             </div>
           </div>
 
+          {/* Sisi kanan (Total Harga) tidak saya ubah */}
           <div className="col-lg-4">
-            <div className="border border-neutral-30 rounded-12 bg-main-25 p-24 bg-main-25">
+            <div
+              className="border border-neutral-30 rounded-12 bg-white p-24 bg-white"
+              style={{ position: "sticky", top: "20px" }} // Tetap gunakan sticky
+            >
               <span className="text-neutral-700 text-lg mb-12">
                 Total Harga
               </span>
@@ -131,7 +195,7 @@ const CartInner = () => {
                   <span className="text-2xl d-flex">
                     <i className="ph-bold ph-tag" />
                   </span>
-                  {/* <span className=""></span> */}
+
                   <h2 className="mb-0">Rp 500.000</h2>
                 </div>
                 <button
@@ -154,17 +218,13 @@ const CartInner = () => {
                   <span className="text-neutral-500">Pajak</span>
                   <span className="text-neutral-700 fw-medium">Rp 5.000</span>
                 </div>
-                {/* <div className="d-flex align-items-center justify-content-between gap-4">
-                  <span className="text-neutral-500">Shipping</span>
-                  <span className="text-neutral-700 fw-medium">Free</span>
-                </div> */}
               </div>
               <span className="d-block border border-neutral-30 my-24 border-dashed" />
               <form action="#" className="my-24 position-relative">
                 <input
                   type="email"
                   className="form-control bg-white shadow-none border border-neutral-30 rounded-pill h-48 ps-24 pe-44 focus-border-main-600"
-                  placeholder="DISCOUNT9"
+                  placeholder="Kode Diskon"
                 />
                 <button
                   type="submit"

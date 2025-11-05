@@ -7,7 +7,7 @@ const CourseDetails = () => {
         <div className="row gy-4">
           <div className="col-xl-8">
             {/* Details Content Start */}
-            <div className="course-details__content border border-neutral-30 rounded-12 bg-main-25 p-12">
+            <div className="course-details__content border border-neutral-30 rounded-12 bg-white p-12">
               <img
                 src="assets/images/thumbs/course-detail1.png"
                 alt=""
@@ -145,7 +145,7 @@ const CourseDetails = () => {
           </div>
           <div className="col-xl-4">
             <div className="course-details__sidebar border border-neutral-30 rounded-12 bg-white p-8">
-              <div className="border border-neutral-30 rounded-12 bg-main-25 p-24 bg-main-25">
+              <div className="border border-neutral-30 rounded-12 bg-white p-24 bg-white">
                 <span className="text-neutral-700 text-lg mb-12">Price</span>
                 <div className="flex-align align-items-start flex-wrap gap-8 border-bottom border-neutral-40 pb-24 mb-24">
                   <div className="flex-align gap-12 text-neutral-700">

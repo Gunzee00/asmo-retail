@@ -4,33 +4,22 @@ const BlogDetailsInner = () => {
   return (
     <div className="blog-page-section py-30">
       <div className="container">
-        {/* <div className="flex-between gap-16 flex-wrap mb-40">
-          <span className="text-neutral-500">Showing 9 of 600 Results </span>
-          <div className="flex-align gap-16">
-            <div className="flex-align gap-8">
-              <span className="text-neutral-500 flex-shrink-0">Sort By :</span>
-              <select className="form-select ps-20 pe-28 py-8 fw-medium rounded-pill bg-main-25 border border-neutral-30 text-neutral-700">
-                <option value={1}>Newest</option>
-                <option value={1}>Trending</option>
-                <option value={1}>Popular</option>
-              </select>
-            </div>
-            <button
-              type="button"
-              className="list-bar-btn text-xl w-40 h-40 bg-main-600 text-white rounded-8 flex-center d-lg-none"
-            >
-              <i className="ph-bold ph-funnel" />
-            </button>
-          </div>
-        </div> */}
         <div className="row gy-4">
-          <div className="col-lg-8">
-            <div className="bg-main-25 rounded-16 p-12 border border-neutral-30">
+          <div className="col-lg-12">
+            <div className="bg-white rounded-16 p-12 border border-neutral-30">
               <div className="rounded-12 overflow-hidden position-relative">
                 <img
                   src="assets/images/thumbs/blog-detail1.png"
                   alt="Course Image"
                   className="rounded-12 cover-img transition-2"
+                  style={{
+                    maxWidth: "400px" /* lebih kecil */,
+                    width: "100%",
+                    height: "auto",
+                    objectFit: "cover",
+                    display: "block",
+                    margin: "20px auto" /* kasih jarak atas bawah + center */,
+                  }}
                 />
                 <div className="position-absolute inset-inline-end-0 inset-block-end-0 me-16 mb-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium">
                   <h3 className="mb-0 text-white fw-medium">21</h3>
@@ -196,203 +185,6 @@ const BlogDetailsInner = () => {
                   of your online learning experience.
                 </p>
               </div>
-            </div>
-            {/* Review Start */}
-
-            {/* Review End */}
-            {/* Review Form Start */}
-
-            {/* Review Form End */}
-          </div>
-          <div className="col-lg-4">
-            <div className="border border-neutral-30 rounded-12 bg-main-25 p-32 bg-main-25">
-              <h4 className="mb-16">Search</h4>
-              <span className="d-block border border-neutral-30 my-24 border-dashed" />
-              <form action="#" className="position-relative">
-                <input
-                  type="text"
-                  className="common-input rounded-pill py-18 pe-64"
-                  placeholder="Search..."
-                />
-                <button
-                  type="submit"
-                  className="flex-center w-44 h-44 rounded-circle bg-main-600 hover-bg-main-700 text-white text-2xl position-absolute inset-inline-end-0 top-50 translate-middle-y me-8"
-                >
-                  <i className="ph ph-magnifying-glass" />
-                </button>
-              </form>
-            </div>
-            <div className="border border-neutral-30 rounded-12 bg-main-25 p-32 bg-main-25 mt-24">
-              <h4 className="mb-16">More Related Blogs</h4>
-              <span className="d-block border border-neutral-30 my-24 border-dashed" />
-              <div className="flex-align gap-16">
-                <Link to="/blog" className="flex-shrink-0">
-                  <img
-                    src="assets/images/thumbs/blog-detail3.png"
-                    alt=""
-                    className="w-80 h-80 rounded-8 object-fit-cover"
-                  />
-                </Link>
-                <div className="flex-grow-1">
-                  <h6 className="text-xl mb-10">
-                    <Link
-                      to="/blog"
-                      className="hover-text-main-600 text-line-2"
-                    >
-                      The Role of Emotional Intelligence{" "}
-                    </Link>
-                  </h6>
-                  <span className="text-neutral-500">23/10/24</span>
-                </div>
-              </div>
-              <span className="d-block border border-neutral-30 my-24 border-dashed" />
-              <div className="flex-align gap-16">
-                <Link to="/blog" className="flex-shrink-0">
-                  <img
-                    src="assets/images/thumbs/blog-detail2.png"
-                    alt=""
-                    className="w-80 h-80 rounded-8 object-fit-cover"
-                  />
-                </Link>
-                <div className="flex-grow-1">
-                  <h6 className="text-xl mb-10">
-                    <Link
-                      to="/blog"
-                      className="hover-text-main-600 text-line-2"
-                    >
-                      The Psychology of Learning: How Cognitive{" "}
-                    </Link>
-                  </h6>
-                  <span className="text-neutral-500">23/10/24</span>
-                </div>
-              </div>
-              <span className="d-block border border-neutral-30 my-24 border-dashed" />
-              <div className="flex-align gap-16">
-                <Link to="/blog" className="flex-shrink-0">
-                  <img
-                    src="assets/images/thumbs/blog-detail4.png"
-                    alt=""
-                    className="w-80 h-80 rounded-8 object-fit-cover"
-                  />
-                </Link>
-                <div className="flex-grow-1">
-                  <h6 className="text-xl mb-10">
-                    <Link
-                      to="/blog"
-                      className="hover-text-main-600 text-line-2"
-                    >
-                      The Future of Remote Work: Trends{" "}
-                    </Link>
-                  </h6>
-                  <span className="text-neutral-500">23/10/24</span>
-                </div>
-              </div>
-              <span className="d-block border border-neutral-30 my-24 border-dashed" />
-              <div className="flex-align gap-16">
-                <Link to="/blog" className="flex-shrink-0">
-                  <img
-                    src="assets/images/thumbs/blog-detail3.png"
-                    alt=""
-                    className="w-80 h-80 rounded-8 object-fit-cover"
-                  />
-                </Link>
-                <div className="flex-grow-1">
-                  <h6 className="text-xl mb-10">
-                    <Link
-                      to="/blog"
-                      className="hover-text-main-600 text-line-2"
-                    >
-                      Crafting Compelling Presentations
-                    </Link>
-                  </h6>
-                  <span className="text-neutral-500">23/10/24</span>
-                </div>
-              </div>
-              <span className="d-block border border-neutral-30 my-24 border-dashed" />
-              <div className="flex-align gap-16">
-                <Link to="/blog" className="flex-shrink-0">
-                  <img
-                    src="assets/images/thumbs/blog-detail2.png"
-                    alt=""
-                    className="w-80 h-80 rounded-8 object-fit-cover"
-                  />
-                </Link>
-                <div className="flex-grow-1">
-                  <h6 className="text-xl mb-10">
-                    <Link
-                      to="/blog"
-                      className="hover-text-main-600 text-line-2"
-                    >
-                      Demystifying Data Science
-                    </Link>
-                  </h6>
-                  <span className="text-neutral-500">23/10/24</span>
-                </div>
-              </div>
-              <span className="d-block border border-neutral-30 my-24 border-dashed" />
-              <Link
-                to="/blog"
-                className="h6 mb-0 text-main-600 fw-semibold hover-text-decoration-underline"
-              >
-                See All
-                <i className="ph-bold ph-arrow-right" />
-              </Link>
-            </div>
-            <div className="border border-neutral-30 rounded-12 bg-main-25 p-32 bg-main-25 mt-24">
-              <h4 className="mb-16">Popular Tag</h4>
-              <span className="d-block border border-neutral-30 my-24 border-dashed" />
-              <div className="flex-align flex-wrap gap-8">
-                <Link
-                  to="/blog"
-                  className="border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600"
-                >
-                  Machine Learning
-                </Link>
-                <Link
-                  to="/blog"
-                  className="border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600"
-                >
-                  Web Development
-                </Link>
-                <Link
-                  to="/blog"
-                  className="border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600"
-                >
-                  Python
-                </Link>
-                <Link
-                  to="/blog"
-                  className="border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600"
-                >
-                  Laravel
-                </Link>
-                <Link
-                  to="/blog"
-                  className="border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600"
-                >
-                  Wordpress
-                </Link>
-                <Link
-                  to="/blog"
-                  className="border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600"
-                >
-                  UI/UX Design
-                </Link>
-                <Link
-                  to="/blog"
-                  className="border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600"
-                >
-                  AI
-                </Link>
-              </div>
-              <span className="d-block border border-neutral-30 my-24 border-dashed" />
-              <Link
-                to="/blog"
-                className="h6 mb-0 text-main-600 fw-semibold hover-text-decoration-underline"
-              >
-                See All
-                <i className="ph-bold ph-arrow-right" />
-              </Link>
             </div>
           </div>
         </div>

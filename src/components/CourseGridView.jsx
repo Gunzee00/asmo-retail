@@ -4,10 +4,9 @@ const CourseGridView = () => {
   return (
     <section className="course-grid-view py-26">
       <div className="container">
-        
         <div className="row gy-4">
           <div className="col-lg-4 col-sm-6">
-            <div className="course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30">
+            <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
               <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
                 <Link to="/assessment-details" className="w-100 h-100">
                   <img
@@ -93,7 +92,7 @@ const CourseGridView = () => {
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <div className="course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30">
+            <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
               <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
                 <Link to="/assessment-details" className="w-100 h-100">
                   <img
@@ -179,7 +178,7 @@ const CourseGridView = () => {
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <div className="course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30">
+            <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
               <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
                 <Link to="/assessment-details" className="w-100 h-100">
                   <img
@@ -265,7 +264,7 @@ const CourseGridView = () => {
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <div className="course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30">
+            <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
               <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
                 <Link to="/assessment-details" className="w-100 h-100">
                   <img
@@ -351,7 +350,7 @@ const CourseGridView = () => {
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <div className="course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30">
+            <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
               <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
                 <Link to="/assessment-details" className="w-100 h-100">
                   <img
@@ -437,7 +436,7 @@ const CourseGridView = () => {
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <div className="course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30">
+            <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
               <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
                 <Link to="/assessment-details" className="w-100 h-100">
                   <img
@@ -523,7 +522,7 @@ const CourseGridView = () => {
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <div className="course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30">
+            <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
               <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
                 <Link to="/assessment-details" className="w-100 h-100">
                   <img
@@ -609,7 +608,7 @@ const CourseGridView = () => {
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <div className="course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30">
+            <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
               <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
                 <Link to="/assessment-details" className="w-100 h-100">
                   <img
@@ -695,7 +694,7 @@ const CourseGridView = () => {
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <div className="course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30">
+            <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
               <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
                 <Link to="/assessment-details" className="w-100 h-100">
                   <img
@@ -784,7 +783,7 @@ const CourseGridView = () => {
         <ul className="pagination mt-40 flex-align gap-12 flex-wrap justify-content-center">
           <li className="page-item">
             <Link
-              className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
+              className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-white rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
               to="#"
             >
               <i className="ph-bold ph-caret-left" />
@@ -792,7 +791,7 @@ const CourseGridView = () => {
           </li>
           <li className="page-item">
             <Link
-              className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
+              className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-white rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
               to="#"
             >
               1
@@ -800,7 +799,7 @@ const CourseGridView = () => {
           </li>
           <li className="page-item">
             <Link
-              className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
+              className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-white rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
               to="#"
             >
               2
@@ -808,7 +807,7 @@ const CourseGridView = () => {
           </li>
           <li className="page-item">
             <Link
-              className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
+              className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-white rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
               to="#"
             >
               3
@@ -816,7 +815,7 @@ const CourseGridView = () => {
           </li>
           <li className="page-item">
             <Link
-              className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
+              className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-white rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
               to="#"
             >
               ...
@@ -824,7 +823,7 @@ const CourseGridView = () => {
           </li>
           <li className="page-item">
             <Link
-              className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
+              className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-white rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
               to="#"
             >
               <i className="ph-bold ph-caret-right" />

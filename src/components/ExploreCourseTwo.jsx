@@ -107,3532 +107,863 @@ const ExploreCourseTwo = () => {
                   Tes Sikap & Etika Kerja
                 </button>
               </li>
-              {/* <li className='nav-item' role='presentation'>
-                <button
-                  className='nav-link rounded-pill bg-main-25 text-md fw-medium text-neutral-500 flex-center w-100 gap-8'
-                  id='pills-marketing-tab'
-                  data-bs-toggle='pill'
-                  data-bs-target='#pills-marketing'
-                  type='button'
-                  role='tab'
-                  aria-controls='pills-marketing'
-                  aria-selected='false'
-                >
-                  <i className='text-xl d-flex ph-bold ph-chart-pie-slice' />
-                  Marketing
-                </button>
-              </li> */}
             </ul>
           </div>
         </div>
-        <div className="tab-content" id="pills-tabContent">
-          <div
-            className="tab-pane fade show active"
-            id="pills-categories"
-            role="tabpanel"
-            aria-labelledby="pills-categories-tab"
-            tabIndex={0}
-          >
-            <div className="row gy-4">
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={200}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/image2.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    {/* <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
-                      <img
-                        src= 'assets/images/thumbs/user-two-img1.png'
-                        alt=''
-                      />
-                    </span> */}
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        {/* <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Marketing
-                        </Link> */}
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Introduction to Digital Marketing
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={400}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/image2.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    {/* <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
-                      <img
-                        src= 'assets/images/thumbs/user-two-img2.png'
-                        alt=''
-                      />
-                    </span> */}
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Python
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Mastering Python : From Zero to Hero
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={600}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/image2.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    {/* <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
-                      <img
-                        src= 'assets/images/thumbs/user-two-img3.png'
-                        alt=''
-                      />
-                    </span> */}
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Beginner's Guide to Adobe Photoshop
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={200}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/image2.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    {/* <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
-                      <img
-                        src= 'assets/images/thumbs/user-two-img3.png'
-                        alt=''
-                      />
-                    </span> */}
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          The Art of Public Speaking online Course
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={400}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/image2.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img5.png"
-                        alt=""
-                      />
+        <div className="container">
+          <div className="row gy-4">
+            <div className="col-lg-4 col-sm-6">
+              <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
+                <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
+                  <Link to="/assessment-details" className="w-100 h-100">
+                    <img
+                      src="assets/images/thumbs/image2.png"
+                      alt="Course Image"
+                      className="course-item__img rounded-12 cover-img transition-2"
+                    />
+                  </Link>
+                  <div className="flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1">
+                    <span className="text-2xl d-flex">
+                      <i className="ph ph-clock" />
                     </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Introduction to Machine Learning AI
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
+                    <span className="text-lg fw-medium">9h 36m</span>
                   </div>
+                  <button
+                    type="button"
+                    className="wishlist-btn w-48 h-48 bg-white text-main-two-600 flex-center position-absolute inset-block-start-0 inset-inline-end-0 mt-20 me-20 z-1 text-2xl rounded-circle transition-2"
+                  >
+                    <i className="ph ph-heart" />
+                  </button>
                 </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={600}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/image2.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    {/* <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
-                      <img
-                        src= 'assets/images/thumbs/user-two-img3.png'
-                        alt=''
-                      />
-                    </span> */}
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Yoga
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
+                <div className="course-item__content">
+                  <div className="">
+                    <h5 className="mb-28">
+                      <Link
+                        to="/assessment-details"
+                        className="link text-line-2"
+                      >
+                        Introduction to Digital Marketing
+                      </Link>
+                    </h5>
+                    <div className="flex-between gap-8 flex-wrap mb-16">
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-video-camera" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          20 Lessons
+                        </span>
                       </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Yoga for Wellness: A Comprehensive Guide
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-chart-bar" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Beginner
+                        </span>
                       </div>
                     </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
+                    <div className="flex-between gap-8 flex-wrap">
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
                         </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
+                        <span className="text-lg text-neutral-700">
                           4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
+                          <span className="text-neutral-100">(6.4k)</span>
+                        </span>
+                      </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <img
+                            src="assets/images/thumbs/image2.png"
+                            alt="User Image"
+                            className="w-32 h-32 object-fit-cover rounded-circle"
+                          />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          AnikaZ
                         </span>
                       </div>
                     </div>
+                  </div>
+                  <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
+                    <h5 className="mb-0 text-main-two-600">Rp 200.000</h5>
+                    <Link
+                      to="/apply-admission"
+                      className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
+                      tabIndex={0}
+                    >
+                      Enroll Now
+                      <i className="ph ph-arrow-right" />
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="text-center">
-              <Link
-                to="/assassment"
-                className="btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40"
-              >
-                Lihat Semua Assessment
-                <i className="ph-bold ph-arrow-up-right d-flex text-lg" />
-              </Link>
-            </div>
-          </div>
-          <div
-            className="tab-pane fade"
-            id="pills-design"
-            role="tabpanel"
-            aria-labelledby="pills-design-tab"
-            tabIndex={0}
-          >
-            <div className="row gy-4">
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={200}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img1.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img1.png"
-                        alt=""
-                      />
+            <div className="col-lg-4 col-sm-6">
+              <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
+                <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
+                  <Link to="/assessment-details" className="w-100 h-100">
+                    <img
+                      src="assets/images/thumbs/image2.png"
+                      alt="Course Image"
+                      className="course-item__img rounded-12 cover-img transition-2"
+                    />
+                  </Link>
+                  <div className="flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1">
+                    <span className="text-2xl d-flex">
+                      <i className="ph ph-clock" />
                     </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Marketing
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Introduction to Digital Marketing
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
+                    <span className="text-lg fw-medium">25h 06m</span>
                   </div>
+                  <button
+                    type="button"
+                    className="wishlist-btn w-48 h-48 bg-white text-main-two-600 flex-center position-absolute inset-block-start-0 inset-inline-end-0 mt-20 me-20 z-1 text-2xl rounded-circle transition-2"
+                  >
+                    <i className="ph ph-heart" />
+                  </button>
                 </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={400}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img2.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img2.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Python
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
+                <div className="course-item__content">
+                  <div className="">
+                    <h5 className="mb-28">
+                      <Link
+                        to="/assessment-details"
+                        className="link text-line-2"
+                      >
+                        Introduction to Python Programming
+                      </Link>
+                    </h5>
+                    <div className="flex-between gap-8 flex-wrap mb-16">
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-video-camera" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          20 Lessons
+                        </span>
                       </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Mastering Python : From Zero to Hero
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-chart-bar" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Beginner
+                        </span>
                       </div>
                     </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
+                    <div className="flex-between gap-8 flex-wrap">
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
                         </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
+                        <span className="text-lg text-neutral-700">
                           4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
+                          <span className="text-neutral-100">(6.4k)</span>
+                        </span>
+                      </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <img
+                            src="assets/images/thumbs/image2.png"
+                            alt="User Image"
+                            className="w-32 h-32 object-fit-cover rounded-circle"
+                          />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Wade
                         </span>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={600}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img3.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
+                  <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
+                    <h5 className="mb-0 text-main-two-600">Rp 220.000</h5>
+                    <Link
+                      to="/apply-admission"
+                      className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
+                      tabIndex={0}
+                    >
+                      Enroll Now
+                      <i className="ph ph-arrow-right" />
                     </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Graphic Design
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Beginner's Guide to Adobe Photoshop
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={200}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img3.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          ART Design
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          The Art of Public Speaking online Course
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={400}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img5.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img5.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          AI Machine
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Introduction to Machine Learning AI
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={600}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img6.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Yoga
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Yoga for Wellness: A Comprehensive Guide
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="text-center">
-              <Link
-                to="/course"
-                className="btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40"
-              >
-                Lihat Semua Assessment
-                <i className="ph-bold ph-arrow-up-right d-flex text-lg" />
-              </Link>
-            </div>
-          </div>
-          <div
-            className="tab-pane fade"
-            id="pills-programming"
-            role="tabpanel"
-            aria-labelledby="pills-programming-tab"
-            tabIndex={0}
-          >
-            <div className="row gy-4">
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={200}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img1.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img1.png"
-                        alt=""
-                      />
+            <div className="col-lg-4 col-sm-6">
+              <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
+                <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
+                  <Link to="/assessment-details" className="w-100 h-100">
+                    <img
+                      src="assets/images/thumbs/image2.png"
+                      alt="Course Image"
+                      className="course-item__img rounded-12 cover-img transition-2"
+                    />
+                  </Link>
+                  <div className="flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1">
+                    <span className="text-2xl d-flex">
+                      <i className="ph ph-clock" />
                     </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Marketing
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Introduction to Digital Marketing
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
+                    <span className="text-lg fw-medium">9h 36m</span>
                   </div>
+                  <button
+                    type="button"
+                    className="wishlist-btn w-48 h-48 bg-white text-main-two-600 flex-center position-absolute inset-block-start-0 inset-inline-end-0 mt-20 me-20 z-1 text-2xl rounded-circle transition-2"
+                  >
+                    <i className="ph ph-heart" />
+                  </button>
                 </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={400}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img2.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img2.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Python
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
+                <div className="course-item__content">
+                  <div className="">
+                    <h5 className="mb-28">
+                      <Link
+                        to="/assessment-details"
+                        className="link text-line-2"
+                      >
+                        Introduction to Photography Masterclass
+                      </Link>
+                    </h5>
+                    <div className="flex-between gap-8 flex-wrap mb-16">
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-video-camera" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          20 Lessons
+                        </span>
                       </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Mastering Python : From Zero to Hero
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-chart-bar" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Beginner
+                        </span>
                       </div>
                     </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
+                    <div className="flex-between gap-8 flex-wrap">
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
                         </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
+                        <span className="text-lg text-neutral-700">
                           4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
+                          <span className="text-neutral-100">(6.4k)</span>
+                        </span>
+                      </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <img
+                            src="assets/images/thumbs/image2.png"
+                            alt="User Image"
+                            className="w-32 h-32 object-fit-cover rounded-circle"
+                          />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Cody
                         </span>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={600}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img3.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
+                  <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
+                    <h5 className="mb-0 text-main-two-600">Rp 150.000</h5>
+                    <Link
+                      to="/apply-admission"
+                      className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
+                      tabIndex={0}
+                    >
+                      Enroll Now
+                      <i className="ph ph-arrow-right" />
                     </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Graphic Design
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Beginner's Guide to Adobe Photoshop
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={200}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img3.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          ART Design
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          The Art of Public Speaking online Course
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={400}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img5.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img5.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          AI Machine
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Introduction to Machine Learning AI
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={600}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img6.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Yoga
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Yoga for Wellness: A Comprehensive Guide
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="text-center">
-              <Link
-                to="/course"
-                className="btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40"
-              >
-                Lihat Semua Assessment
-                <i className="ph-bold ph-arrow-up-right d-flex text-lg" />
-              </Link>
-            </div>
-          </div>
-          <div
-            className="tab-pane fade"
-            id="pills-webDesign"
-            role="tabpanel"
-            aria-labelledby="pills-webDesign-tab"
-            tabIndex={0}
-          >
-            <div className="row gy-4">
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={200}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img1.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img1.png"
-                        alt=""
-                      />
+            <div className="col-lg-4 col-sm-6">
+              <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
+                <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
+                  <Link to="/assessment-details" className="w-100 h-100">
+                    <img
+                      src="assets/images/thumbs/image2.png"
+                      alt="Course Image"
+                      className="course-item__img rounded-12 cover-img transition-2"
+                    />
+                  </Link>
+                  <div className="flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1">
+                    <span className="text-2xl d-flex">
+                      <i className="ph ph-clock" />
                     </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Marketing
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Introduction to Digital Marketing
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
+                    <span className="text-lg fw-medium">9h 36m</span>
                   </div>
+                  <button
+                    type="button"
+                    className="wishlist-btn w-48 h-48 bg-white text-main-two-600 flex-center position-absolute inset-block-start-0 inset-inline-end-0 mt-20 me-20 z-1 text-2xl rounded-circle transition-2"
+                  >
+                    <i className="ph ph-heart" />
+                  </button>
                 </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={400}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img2.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img2.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Python
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
+                <div className="course-item__content">
+                  <div className="">
+                    <h5 className="mb-28">
+                      <Link
+                        to="/assessment-details"
+                        className="link text-line-2"
+                      >
+                        Spanish Language Mastery: Beginner to Fluent
+                      </Link>
+                    </h5>
+                    <div className="flex-between gap-8 flex-wrap mb-16">
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-video-camera" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          20 Lessons
+                        </span>
                       </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Mastering Python : From Zero to Hero
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-chart-bar" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Beginner
+                        </span>
                       </div>
                     </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
+                    <div className="flex-between gap-8 flex-wrap">
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
                         </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
+                        <span className="text-lg text-neutral-700">
                           4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
+                          <span className="text-neutral-100">(6.4k)</span>
+                        </span>
+                      </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <img
+                            src="assets/images/thumbs/user-img4.png"
+                            alt="User Image"
+                            className="w-32 h-32 object-fit-cover rounded-circle"
+                          />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Dustin
                         </span>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={600}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img3.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
+                  <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
+                    <h5 className="mb-0 text-main-two-600">Rp 280.000</h5>
+                    <Link
+                      to="/apply-admission"
+                      className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
+                      tabIndex={0}
+                    >
+                      Enroll Now
+                      <i className="ph ph-arrow-right" />
                     </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Graphic Design
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Beginner's Guide to Adobe Photoshop
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={200}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img3.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          ART Design
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          The Art of Public Speaking online Course
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={400}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img5.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img5.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          AI Machine
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Introduction to Machine Learning AI
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={600}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img6.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Yoga
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Yoga for Wellness: A Comprehensive Guide
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="text-center">
-              <Link
-                to="/course"
-                className="btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40"
-              >
-                Lihat Semua Assessment
-                <i className="ph-bold ph-arrow-up-right d-flex text-lg" />
-              </Link>
-            </div>
-          </div>
-          <div
-            className="tab-pane fade"
-            id="pills-Academic"
-            role="tabpanel"
-            aria-labelledby="pills-Academic-tab"
-            tabIndex={0}
-          >
-            <div className="row gy-4">
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={200}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img1.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img1.png"
-                        alt=""
-                      />
+            <div className="col-lg-4 col-sm-6">
+              <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
+                <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
+                  <Link to="/assessment-details" className="w-100 h-100">
+                    <img
+                      src="assets/images/thumbs/image2.png"
+                      alt="Course Image"
+                      className="course-item__img rounded-12 cover-img transition-2"
+                    />
+                  </Link>
+                  <div className="flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1">
+                    <span className="text-2xl d-flex">
+                      <i className="ph ph-clock" />
                     </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Marketing
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Introduction to Digital Marketing
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
+                    <span className="text-lg fw-medium">9h 36m</span>
                   </div>
+                  <button
+                    type="button"
+                    className="wishlist-btn w-48 h-48 bg-white text-main-two-600 flex-center position-absolute inset-block-start-0 inset-inline-end-0 mt-20 me-20 z-1 text-2xl rounded-circle transition-2"
+                  >
+                    <i className="ph ph-heart" />
+                  </button>
                 </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={400}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img2.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img2.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Python
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
+                <div className="course-item__content">
+                  <div className="">
+                    <h5 className="mb-28">
+                      <Link
+                        to="/assessment-details"
+                        className="link text-line-2"
+                      >
+                        Financial Planning for Millennials
+                      </Link>
+                    </h5>
+                    <div className="flex-between gap-8 flex-wrap mb-16">
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-video-camera" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          20 Lessons
+                        </span>
                       </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Mastering Python : From Zero to Hero
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-chart-bar" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Beginner
+                        </span>
                       </div>
                     </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
+                    <div className="flex-between gap-8 flex-wrap">
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
                         </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
+                        <span className="text-lg text-neutral-700">
                           4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
+                          <span className="text-neutral-100">(6.4k)</span>
+                        </span>
+                      </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <img
+                            src="assets/images/thumbs/user-img5.png"
+                            alt="User Image"
+                            className="w-32 h-32 object-fit-cover rounded-circle"
+                          />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Bruce
                         </span>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={600}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img3.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
+                  <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
+                    <h5 className="mb-0 text-main-two-600">Rp 200.000</h5>
+                    <Link
+                      to="/apply-admission"
+                      className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
+                      tabIndex={0}
+                    >
+                      Enroll Now
+                      <i className="ph ph-arrow-right" />
                     </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Graphic Design
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Beginner's Guide to Adobe Photoshop
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={200}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img3.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          ART Design
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          The Art of Public Speaking online Course
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={400}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img5.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img5.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          AI Machine
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Introduction to Machine Learning AI
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={600}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img6.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Yoga
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Yoga for Wellness: A Comprehensive Guide
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="text-center">
-              <Link
-                to="/course"
-                className="btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40"
-              >
-                Lihat Semua Assessment
-                <i className="ph-bold ph-arrow-up-right d-flex text-lg" />
-              </Link>
-            </div>
-          </div>
-          <div
-            className="tab-pane fade"
-            id="pills-marketing"
-            role="tabpanel"
-            aria-labelledby="pills-marketing-tab"
-            tabIndex={0}
-          >
-            <div className="row gy-4">
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={200}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img1.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img1.png"
-                        alt=""
-                      />
+            <div className="col-lg-4 col-sm-6">
+              <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
+                <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
+                  <Link to="/assessment-details" className="w-100 h-100">
+                    <img
+                      src="assets/images/thumbs/image2.png"
+                      alt="Course Image"
+                      className="course-item__img rounded-12 cover-img transition-2"
+                    />
+                  </Link>
+                  <div className="flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1">
+                    <span className="text-2xl d-flex">
+                      <i className="ph ph-clock" />
                     </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Marketing
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Introduction to Digital Marketing
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
+                    <span className="text-lg fw-medium">9h 36m</span>
                   </div>
+                  <button
+                    type="button"
+                    className="wishlist-btn w-48 h-48 bg-white text-main-two-600 flex-center position-absolute inset-block-start-0 inset-inline-end-0 mt-20 me-20 z-1 text-2xl rounded-circle transition-2"
+                  >
+                    <i className="ph ph-heart" />
+                  </button>
                 </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={400}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img2.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img2.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Python
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
+                <div className="course-item__content">
+                  <div className="">
+                    <h5 className="mb-28">
+                      <Link
+                        to="/assessment-details"
+                        className="link text-line-2"
+                      >
+                        Nutrition Essentials for Healthy Living
+                      </Link>
+                    </h5>
+                    <div className="flex-between gap-8 flex-wrap mb-16">
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-video-camera" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          20 Lessons
+                        </span>
                       </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Mastering Python : From Zero to Hero
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-chart-bar" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Beginner
+                        </span>
                       </div>
                     </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
+                    <div className="flex-between gap-8 flex-wrap">
                       <div className="flex-align gap-4">
                         <span className="text-2xl fw-medium text-warning-600 d-flex">
                           <i className="ph-fill ph-star" />
                         </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
+                        <span className="text-lg text-neutral-700">
                           4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
+                          <span className="text-neutral-100">(6.4k)</span>
+                        </span>
+                      </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <img
+                            src="assets/images/thumbs/user-img6.png"
+                            alt="User Image"
+                            className="w-32 h-32 object-fit-cover rounded-circle"
+                          />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Robert
                         </span>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={600}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img3.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
+                  <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
+                    <h5 className="mb-0 text-main-two-600">Rp 150.000</h5>
+                    <Link
+                      to="/apply-admission"
+                      className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
+                      tabIndex={0}
+                    >
+                      Enroll Now
+                      <i className="ph ph-arrow-right" />
                     </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Graphic Design
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Beginner's Guide to Adobe Photoshop
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={200}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img3.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          ART Design
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          The Art of Public Speaking online Course
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={400}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img5.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img5.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          AI Machine
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Introduction to Machine Learning AI
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-sm-6 wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-duration={600}
-              >
-                <div className="course-item bg-white rounded-16 p-12 h-100 box-shadow-md">
-                  <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
-                    <Link to="/assessment-details" className="w-100 h-100">
-                      <img
-                        src="assets/images/thumbs/course-img6.png"
-                        alt="Course Image"
-                        className="course-item__img rounded-12 cover-img transition-2"
-                      />
-                    </Link>
-                  </div>
-                  <div className="course-item__content position-relative">
-                    <span className="course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2">
-                      <img
-                        src="assets/images/thumbs/user-two-img3.png"
-                        alt=""
-                      />
-                    </span>
-                    <div className="">
-                      <div className="mb-16 flex-align gap-16 flex-wrap">
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Yoga
-                        </Link>
-                        <Link
-                          to="/course"
-                          className="py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white"
-                        >
-                          <span className="text-xl d-flex">
-                            <i className="ph-bold ph-squares-four" />
-                          </span>
-                          Beginner
-                        </Link>
-                      </div>
-                      <h5 className="mb-28">
-                        <Link
-                          to="/assessment-details"
-                          className="link text-line-2"
-                        >
-                          Yoga for Wellness: A Comprehensive Guide
-                        </Link>
-                      </h5>
-                      <div className="flex-align gap-28 flex-wrap mb-16">
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-video-camera" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            20
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-clock" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            9h 36m
-                          </span>
-                        </div>
-                        <div className="flex-align gap-8">
-                          <span className="text-neutral-700 text-2xl d-flex">
-                            <i className="ph-bold ph-users" />
-                          </span>
-                          <span className="text-neutral-700 text-lg fw-medium">
-                            1.5K
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                      <h5 className="mb-0 text-main-two-600">Rp 180.000</h5>
-                      <div className="flex-align gap-4">
-                        <span className="text-2xl fw-medium text-warning-600 d-flex">
-                          <i className="ph-fill ph-star" />
-                        </span>
-                        <span className="text-lg text-neutral-700 fw-medium">
-                          4.7
-                          <span className="text-neutral-100 fw-normal">
-                            (6.4k)
-                          </span>
-                        </span>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="text-center">
-              <Link
-                to="/course"
-                className="btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40"
-              >
-                Lihat Semua Assessment
-                <i className="ph-bold ph-arrow-up-right d-flex text-lg" />
-              </Link>
+            <div className="col-lg-4 col-sm-6">
+              <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
+                <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
+                  <Link to="/assessment-details" className="w-100 h-100">
+                    <img
+                      src="assets/images/thumbs/image2.png"
+                      alt="Course Image"
+                      className="course-item__img rounded-12 cover-img transition-2"
+                    />
+                  </Link>
+                  <div className="flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1">
+                    <span className="text-2xl d-flex">
+                      <i className="ph ph-clock" />
+                    </span>
+                    <span className="text-lg fw-medium">9h 36m</span>
+                  </div>
+                  <button
+                    type="button"
+                    className="wishlist-btn w-48 h-48 bg-white text-main-two-600 flex-center position-absolute inset-block-start-0 inset-inline-end-0 mt-20 me-20 z-1 text-2xl rounded-circle transition-2"
+                  >
+                    <i className="ph ph-heart" />
+                  </button>
+                </div>
+                <div className="course-item__content">
+                  <div className="">
+                    <h5 className="mb-28">
+                      <Link
+                        to="/assessment-details"
+                        className="link text-line-2"
+                      >
+                        Nutrition Essentials for Healthy Living
+                      </Link>
+                    </h5>
+                    <div className="flex-between gap-8 flex-wrap mb-16">
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-video-camera" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          20 Lessons
+                        </span>
+                      </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-chart-bar" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Beginner
+                        </span>
+                      </div>
+                    </div>
+                    <div className="flex-between gap-8 flex-wrap">
+                      <div className="flex-align gap-4">
+                        <span className="text-2xl fw-medium text-warning-600 d-flex">
+                          <i className="ph-fill ph-star" />
+                        </span>
+                        <span className="text-lg text-neutral-700">
+                          4.7
+                          <span className="text-neutral-100">(6.4k)</span>
+                        </span>
+                      </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <img
+                            src="assets/images/thumbs/user-img2.png"
+                            alt="User Image"
+                            className="w-32 h-32 object-fit-cover rounded-circle"
+                          />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Robert
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
+                    <h5 className="mb-0 text-main-two-600">Rp 190.000</h5>
+                    <Link
+                      to="/apply-admission"
+                      className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
+                      tabIndex={0}
+                    >
+                      Enroll Now
+                      <i className="ph ph-arrow-right" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6">
+              <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
+                <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
+                  <Link to="/assessment-details" className="w-100 h-100">
+                    <img
+                      src="assets/images/thumbs/image2.png"
+                      alt="Course Image"
+                      className="course-item__img rounded-12 cover-img transition-2"
+                    />
+                  </Link>
+                  <div className="flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1">
+                    <span className="text-2xl d-flex">
+                      <i className="ph ph-clock" />
+                    </span>
+                    <span className="text-lg fw-medium">9h 36m</span>
+                  </div>
+                  <button
+                    type="button"
+                    className="wishlist-btn w-48 h-48 bg-white text-main-two-600 flex-center position-absolute inset-block-start-0 inset-inline-end-0 mt-20 me-20 z-1 text-2xl rounded-circle transition-2"
+                  >
+                    <i className="ph ph-heart" />
+                  </button>
+                </div>
+                <div className="course-item__content">
+                  <div className="">
+                    <h5 className="mb-28">
+                      <Link
+                        to="/assessment-details"
+                        className="link text-line-2"
+                      >
+                        Nutrition Essentials for Healthy Living
+                      </Link>
+                    </h5>
+                    <div className="flex-between gap-8 flex-wrap mb-16">
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-video-camera" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          20 Lessons
+                        </span>
+                      </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-chart-bar" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Beginner
+                        </span>
+                      </div>
+                    </div>
+                    <div className="flex-between gap-8 flex-wrap">
+                      <div className="flex-align gap-4">
+                        <span className="text-2xl fw-medium text-warning-600 d-flex">
+                          <i className="ph-fill ph-star" />
+                        </span>
+                        <span className="text-lg text-neutral-700">
+                          4.7
+                          <span className="text-neutral-100">(6.4k)</span>
+                        </span>
+                      </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <img
+                            src="assets/images/thumbs/user-img3.png"
+                            alt="User Image"
+                            className="w-32 h-32 object-fit-cover rounded-circle"
+                          />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Robert
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
+                    <h5 className="mb-0 text-main-two-600">Rp 190.000</h5>
+                    <Link
+                      to="/apply-admission"
+                      className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
+                      tabIndex={0}
+                    >
+                      Enroll Now
+                      <i className="ph ph-arrow-right" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6">
+              <div className="course-item bg-white rounded-16 p-12 h-100 border border-neutral-30">
+                <div className="course-item__thumb rounded-12 overflow-hidden position-relative">
+                  <Link to="/assessment-details" className="w-100 h-100">
+                    <img
+                      src="assets/images/thumbs/image2.png"
+                      alt="Course Image"
+                      className="course-item__img rounded-12 cover-img transition-2"
+                    />
+                  </Link>
+                  <div className="flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1">
+                    <span className="text-2xl d-flex">
+                      <i className="ph ph-clock" />
+                    </span>
+                    <span className="text-lg fw-medium">9h 36m</span>
+                  </div>
+                  <button
+                    type="button"
+                    className="wishlist-btn w-48 h-48 bg-white text-main-two-600 flex-center position-absolute inset-block-start-0 inset-inline-end-0 mt-20 me-20 z-1 text-2xl rounded-circle transition-2"
+                  >
+                    <i className="ph ph-heart" />
+                  </button>
+                </div>
+                <div className="course-item__content">
+                  <div className="">
+                    <h5 className="mb-28">
+                      <Link
+                        to="/assessment-details"
+                        className="link text-line-2"
+                      >
+                        Nutrition Essentials for Healthy Living
+                      </Link>
+                    </h5>
+                    <div className="flex-between gap-8 flex-wrap mb-16">
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-video-camera" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          20 Lessons
+                        </span>
+                      </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <i className="ph-bold ph-chart-bar" />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Beginner
+                        </span>
+                      </div>
+                    </div>
+                    <div className="flex-between gap-8 flex-wrap">
+                      <div className="flex-align gap-4">
+                        <span className="text-2xl fw-medium text-warning-600 d-flex">
+                          <i className="ph-fill ph-star" />
+                        </span>
+                        <span className="text-lg text-neutral-700">
+                          4.7
+                          <span className="text-neutral-100">(6.4k)</span>
+                        </span>
+                      </div>
+                      <div className="flex-align gap-8">
+                        <span className="text-neutral-700 text-2xl d-flex">
+                          <img
+                            src="assets/images/thumbs/user-img1.png"
+                            alt="User Image"
+                            className="w-32 h-32 object-fit-cover rounded-circle"
+                          />
+                        </span>
+                        <span className="text-neutral-700 text-lg fw-medium">
+                          Robert
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
+                    <h5 className="mb-0 text-main-two-600">Rp 100.000</h5>
+                    <Link
+                      to="/apply-admission"
+                      className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
+                      tabIndex={0}
+                    >
+                      Enroll Now
+                      <i className="ph ph-arrow-right" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          <ul className="pagination mt-40 flex-align gap-12 flex-wrap justify-content-center">
+            <li className="page-item">
+              <Link
+                className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-white rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
+                to="#"
+              >
+                <i className="ph-bold ph-caret-left" />
+              </Link>
+            </li>
+            <li className="page-item">
+              <Link
+                className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-white rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
+                to="#"
+              >
+                1
+              </Link>
+            </li>
+            <li className="page-item">
+              <Link
+                className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-white rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
+                to="#"
+              >
+                2
+              </Link>
+            </li>
+            <li className="page-item">
+              <Link
+                className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-white rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
+                to="#"
+              >
+                3
+              </Link>
+            </li>
+            <li className="page-item">
+              <Link
+                className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-white rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
+                to="#"
+              >
+                ...
+              </Link>
+            </li>
+            <li className="page-item">
+              <Link
+                className="page-link text-neutral-700 fw-semibold w-40 h-40 bg-white rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0"
+                to="#"
+              >
+                <i className="ph-bold ph-caret-right" />
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </section>

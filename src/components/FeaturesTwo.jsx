@@ -42,7 +42,7 @@ const FeaturesTwo = () => {
             data-aos="fade-up"
             data-aos-duration={200}
           >
-            <div className="text-center features-item item-hover animation-item bg-white border border-neutral-30 rounded-16 transition-1 hover-bg-main-600 hover-border-main-600">
+            <div className="text-center features-item bg-white border border-neutral-30 rounded-16">
               <span className="mb-32 w-110 h-110 flex-center d-inline-flex bg-main-25 rounded-circle">
                 <img
                   src="assets/images/icons/features-two-icon1.png"
@@ -50,22 +50,21 @@ const FeaturesTwo = () => {
                   alt=""
                 />
               </span>
-              <h4 className="mb-16 transition-1 item-hover__text">
-                Tes Berbasis Psikometri Terstandar
-              </h4>
-              <p className="transition-1 item-hover__text text-line-2">
+              <h4 className="mb-16">Tes Berbasis Psikometri Terstandar</h4>
+              <p className="text-line-2">
                 Instrumen disusun dengan prinsip validitas & reliabilitas untuk
                 memastikan hasil yang objektif dan dapat dipertanggungjawabkan.
               </p>
-              <span className="item-hover__bg w-48 h-1 bg-neutral-500 mt-32" />
+              <span className="w-48 h-1 bg-neutral-500 mt-32" />
             </div>
           </div>
+
           <div
             className="col-lg-4 col-sm-6 col-xs-6"
             data-aos="fade-up"
             data-aos-duration={400}
           >
-            <div className="text-center features-item item-hover animation-item bg-white border border-neutral-30 rounded-16 transition-1 hover-bg-main-600 hover-border-main-600">
+            <div className="text-center features-item bg-white border border-neutral-30 rounded-16">
               <span className="mb-32 w-110 h-110 flex-center d-inline-flex bg-main-25 rounded-circle">
                 <img
                   src="assets/images/icons/features-two-icon2.png"
@@ -73,22 +72,21 @@ const FeaturesTwo = () => {
                   alt=""
                 />
               </span>
-              <h4 className="mb-16 transition-1 item-hover__text">
-                Hasil Real-Time & Mudah Dipahami
-              </h4>
-              <p className="transition-1 item-hover__text text-line-2">
+              <h4 className="mb-16">Hasil Real-Time & Mudah Dipahami</h4>
+              <p className="text-line-2">
                 Laporan langsung muncul setelah tes selesai, lengkap dengan
                 interpretasi yang ringkas dan actionable.
               </p>
-              <span className="item-hover__bg w-48 h-1 bg-neutral-500 mt-32" />
+              <span className="w-48 h-1 bg-neutral-500 mt-32" />
             </div>
           </div>
+
           <div
             className="col-lg-4 col-sm-6 col-xs-6"
             data-aos="fade-up"
             data-aos-duration={600}
           >
-            <div className="text-center features-item item-hover animation-item bg-white border border-neutral-30 rounded-16 transition-1 hover-bg-main-600 hover-border-main-600">
+            <div className="text-center features-item bg-white border border-neutral-30 rounded-16">
               <span className="mb-32 w-110 h-110 flex-center d-inline-flex bg-main-25 rounded-circle">
                 <img
                   src="assets/images/icons/features-two-icon3.png"
@@ -96,14 +94,14 @@ const FeaturesTwo = () => {
                   alt=""
                 />
               </span>
-              <h4 className="mb-16 transition-1 item-hover__text">
+              <h4 className="mb-16">
                 Integrasi Fleksibel untuk Berbagai Kebutuhan
               </h4>
-              <p className="transition-1 item-hover__text text-line-2">
+              <p className="text-line-2">
                 Cocok untuk proses rekrutmen, promosi jabatan, asesmen karyawan,
                 seleksi pendidikan, atau pengembangan diri.
               </p>
-              <span className="item-hover__bg w-48 h-1 bg-neutral-500 mt-32" />
+              <span className="w-48 h-1 bg-neutral-500 mt-32" />
             </div>
           </div>
         </div>
