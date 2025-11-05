@@ -226,7 +226,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -319,7 +319,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -412,7 +412,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -505,7 +505,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -598,7 +598,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -691,7 +691,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -794,7 +794,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -887,7 +887,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -980,7 +980,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -1073,7 +1073,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -1166,7 +1166,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -1259,7 +1259,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -1362,7 +1362,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -1455,7 +1455,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -1548,7 +1548,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -1641,7 +1641,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -1734,7 +1734,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -1827,7 +1827,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -1930,7 +1930,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -2023,7 +2023,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -2116,7 +2116,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -2209,7 +2209,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -2302,7 +2302,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -2395,7 +2395,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -2498,7 +2498,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -2591,7 +2591,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -2684,7 +2684,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -2777,7 +2777,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -2870,7 +2870,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -2963,7 +2963,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -3066,7 +3066,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -3159,7 +3159,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -3252,7 +3252,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -3345,7 +3345,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -3438,7 +3438,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>
@@ -3531,7 +3531,7 @@ const ExploreCourseOne = () => {
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"
                         tabIndex={0}
                       >
-                        Enroll Now
+                        Enroll Sekarang
                         <i className="ph ph-arrow-right" />
                       </Link>
                     </div>

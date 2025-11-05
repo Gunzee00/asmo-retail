@@ -132,9 +132,9 @@ const LessonDetails = () => {
                 <h6 className="mb-16">Enroll Today:</h6>
                 <ul className="list-dotted d-flex flex-column gap-24">
                   <li>
-                    Take the first step towards mastering Python. Enroll now and
-                    start your journey to becoming a proficient Python
-                    programmer!
+                    Take the first step towards mastering Python. Enroll
+                    Sekarang and start your journey to becoming a proficient
+                    Python programmer!
                   </li>
                 </ul>
                 <p className="mt-24 text-neutral-700">
